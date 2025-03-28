@@ -1,0 +1,40 @@
+import "./tela-inicial.css";
+
+function TelaInicial() {
+  return (
+    <div className="container">
+      <img 
+        src={require("C:/BRUNA one drive/OneDrive/Área de Trabalho/Flashcards/frontend/A_pixel_art_of_a_small__cute_dog_wearing_a_red_sup-removebg-preview.png")} 
+        alt="Imagem de cachorro pixel art"
+      />
+      <i className="fas fa-cog config"></i>
+      <div className="cinza_escuro">
+        <div className="logo">
+          <div className="logo-text">
+            <div className="flashcards-wrapper">
+              <div className="flashcards">FLASHCARDS</div>
+              <div className="text-shadow1">FLASHCARDS</div>
+            </div>
+            <span className="java">JAVA</span>
+            <div className="edition-wrapper">
+              <div className="edition">edition</div>
+              <div className="text-shadow2">edition</div>
+            </div>
+            <img 
+              src={require("C:/BRUNA one drive/OneDrive/Área de Trabalho/Flashcards/frontend/luxa.org-pixelate-01-raio-png-removebg-preview.png")} 
+              className="icone-raio" 
+              alt="Ícone de Raio"
+            />
+          </div>
+        </div>
+      </div>
+      <div className="botoes">
+        <p className="botao">Começar</p>
+        <p className="botao">Tutorial</p>
+        <p className="botao">Pontuação</p>
+      </div>
+    </div>
+  );
+}
+
+export default TelaInicial;

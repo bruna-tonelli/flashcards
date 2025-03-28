@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10&display=swap');
+
+body{
+    background-color: #3B3939;
+    font-family: 'Jersey 10', sans-serif;
+}
+
+.tutorial-icone-raio {
+    position: absolute;
+    top: 5px;
+    width: 70px;
+    height: 70px;
+    padding-top: 10px;
+}
+
+.tutorial-flashcards{
+    color: #fff;
+    font-size: 70px;
+    padding-left: 70px;
+}
+
+.tutorial-container{
+    background-color: #FFD302;
+    font-size: 30px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    padding-bottom: 90px;
+}
+
+.como{
+    display: flex;
+    padding-left: 30px;
+    padding-top: 20px;
+}
+
+.texto1-tutorial{
+    display: flex;
+    padding: 40px;
+}
+
+.texto2-tutorial{
+    display: flex;
+    padding: 40px;
+}
+
+.tutorial-botao{
+    display: flex;
+    background-color: #4FA3A9;;
+    width: 120px;
+    height: 40px;
+    align-items: center;
+    border-radius: 12px;
+    cursor: pointer;
+    margin-left: 1340px;
+    
+}
+
+.botao-entendi{
+    color: black;
+    font-family: 'Jersey 10', sans-serif;
+    font-size: 25px;
+    padding: 15px;
+
+}
+
+.tutorial-botao:hover {
+    background-color: #4FA3A9;
+    transform: scale(1.05);
+}
+
+

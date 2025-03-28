@@ -1,0 +1,166 @@
+body {
+    background-color: #3B3939;
+    font-family: 'Jersey 10', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 72vh;
+    margin: 0;
+}
+
+img{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    top: 45px;
+    
+}
+
+.cinza_escuro {
+    background-color: #222;
+    width: 26vw;
+    padding: 0px;
+    height: 400px;
+    margin-top: 200px;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 5px;
+}
+
+.logo-text {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+}
+
+.config {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 24px;
+    color: white;
+    cursor: pointer;
+}
+
+.icone-raio {
+    position: absolute;
+    right: -40px;
+    top: 0px;
+    width: 70px;
+    height: 70px;
+    padding-top: 22px;
+}
+
+.flashcards-wrapper, .edition-wrapper {
+    position: relative;
+    display: inline-block;
+}
+
+/* Sombra para o "FLASHCARDS" */
+.text-shadow1 {
+    position: absolute;
+    color: red;
+    font-size: 60px;
+    z-index: 0;
+    left: 2px;
+    top: 22px;
+    transform: translate(3px, 3px);
+}
+
+/* Sombra para o "edition" */
+.text-shadow2 {
+    position: absolute;
+    color: red;
+    font-size: 35px;
+    z-index: 0;
+    left: 61px;
+    top: -37px;
+    transform: translate(2px, 2px);
+}
+
+/* Texto principal */
+.flashcards {
+    color: #fff;
+    font-size: 60px;
+    padding-top: 25px;
+    position: relative;
+    z-index: 1;
+    margin-right: 20px;
+}
+
+.edition {
+    color: #fff;
+    font-size: 35px;
+    position: relative;
+    bottom: 35px;
+    right: -60px;
+    z-index: 1;
+}
+
+.java {
+    color: #F81919;
+    margin-top: -20px;
+    font-size: 75px;
+    padding-right: 45px;
+}
+
+.nickname{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 8px;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+#nick{
+    color: #ABA5A5;
+    width: 250px;
+    height: 40px;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Jersey 10', sans-serif;
+    border-radius: 8px;
+    border: none;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+
+
+.botaoIniciar{
+    display: flex;
+    background-color: #4FA3A9;
+    width: 120px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 50px;
+}
+
+.iniciar{
+    display: flex;
+    color: black;
+    font-family: 'Jersey 10', sans-serif;
+    font-size: 25px;
+    padding: 27px;
+
+}
+
+.botaoIniciar:hover {
+    background-color: #4FA3A9;
+    transform: scale(1.05);
+}

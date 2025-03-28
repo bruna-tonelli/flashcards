@@ -1,0 +1,54 @@
+import "./pontuacao.css";
+
+function Pontuacao() {
+  return (
+    <div className="container">
+      <div className="logo">
+        <div className="logo-text">
+          <div className="flashcards-wrapper">
+            <div className="flashcards">FLASHCARDS</div>
+            <div className="text-shadow1">FLASHCARDS</div>
+          </div>
+          <span className="java">JAVA</span>
+          <div className="edition-wrapper">
+            <div className="edition">edition</div>
+            <div className="text-shadow2">edition</div>
+          </div>
+          <img 
+            src={require("C:/BRUNA one drive/OneDrive/Área de Trabalho/Flashcards/frontend/luxa.org-pixelate-01-raio-png-removebg-preview.png")} 
+            className="icone-raio" 
+            alt="Ícone de Raio"
+          />
+        </div>
+      </div>
+      <div className="cinza_escuro">
+        <div className="pontuacoes">
+          <div className="melhores-container">
+            <img 
+              src={require("C:/BRUNA one drive/OneDrive/Área de Trabalho/Flashcards/frontend/22542143-pixel-arte-jogos-moeda-moeda-vetor-removebg-preview.png")} 
+              className="icone-moeda"   
+              alt="Ícone moeda"
+            />
+            <span className="melhores-pontuacoes">Melhores Pontuações:</span>
+          </div>
+          <ol>
+            <li>
+              <span>Nick (90 pontos)</span>
+            </li>
+            <li>
+              <span>Dexter (75 pontos)</span>
+            </li>
+            <li>
+              <span>Bruna (59 pontos)</span>
+            </li>
+          </ol>
+        </div>
+      </div>
+      <button className="botaoVoltar">
+        <p className="voltar">Voltar</p>
+      </button>
+    </div>
+  );
+}
+
+export default Pontuacao;

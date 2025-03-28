@@ -1,0 +1,50 @@
+import "./nickname.css";
+
+function Nickname() {
+  return (
+    <>
+      <img 
+        src={require("C:/BRUNA one drive/OneDrive/Área de Trabalho/Flashcards/frontend/A_pixel_art_of_a_small__cute_dog_wearing_a_red_sup-removebg-preview.png")} 
+        alt="Cachorro pixelado"
+      />
+      <i className="fas fa-cog config"></i>
+      <div className="container">
+        <div className="cinza_escuro">
+          <div className="logo">
+            <div className="logo-text">
+              <img 
+                src={require("C:/BRUNA one drive/OneDrive/Área de Trabalho/Flashcards/frontend/luxa.org-pixelate-01-raio-png-removebg-preview.png")} 
+                className="icone-raio" 
+                alt="Ícone de Raio"
+              />
+              <div className="flashcards-wrapper">
+                <div className="flashcards">FLASHCARDS</div>
+                <div className="text-shadow1">FLASHCARDS</div>
+              </div>
+              <span className="java">JAVA</span>
+              <div className="edition-wrapper">
+                <div className="edition">edition</div>
+                <div className="text-shadow2">edition</div>
+              </div>
+              <div className="nickname">
+                <form className="formulario">
+                  <input 
+                    type="text" 
+                    id="nick" 
+                    name="nick" 
+                    placeholder="Digite seu nome"
+                  />
+                  <button className="botaoIniciar">
+                    <p className="iniciar">Iniciar</p>
+                  </button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </>
+  );
+}
+
+export default Nickname;
